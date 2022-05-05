@@ -61,7 +61,6 @@ namespace ThinkLikeAProgrammer
 
         private static string Encode(string plainText)
         {
-
             string cipherText = "";
             foreach (char c in plainText)
             {
