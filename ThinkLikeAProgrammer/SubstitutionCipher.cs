@@ -2,13 +2,13 @@
 
 namespace ThinkLikeAProgrammer
 {
-    internal class SubstitutionCypher
+    internal class SubstitutionCipher
     {
         //{ 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S', 'D', 'F', 'M', 'N', 'B', 'G', 'H', 'J', 'K', 'L', 'Z', 'X', 'C', 'V' }
         private static readonly char[] CipherAlphabet;
 
 
-        static SubstitutionCypher()
+        static SubstitutionCipher()
         {
             CipherAlphabet = GenerateRandomCipherKey();
         }
